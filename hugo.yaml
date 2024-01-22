@@ -1,0 +1,53 @@
+baseURL: https://tiffanyychen.github.io/blog
+languageCode: en-us
+title: Tiffany Chen
+theme: "PaperMod"
+description: "tiffany's blog"
+menu:
+  main:
+    - name: 'Posts'
+      url: 'posts'
+      weight: 5
+    - name: 'Tags'
+      url: 'tags/'
+      weight: 10
+  
+outputs:
+  home: ['HTML', 'RSS', 'JSON']
+params:
+  env: 'production'
+  description: 'Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod'
+  # author: 'Tiffany Chen'
+  defaultTheme: 'auto'
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  images:
+    - 'papermod-cover.png'
+  profileMode:
+    enabled: false
+    title: 'PaperMod'
+    imageUrl: '#'
+    imageTitle: 'my image'
+    buttons:
+      - name: 'Archives'
+        url: 'archives'
+      - name: 'Tags'
+        url: 'tags'
+  homeInfoParams:
+    Title: 'blog'
+    Content: 'Writing about topics that interest me.'
+  socialIcons:
+    - name: 'spotify'
+      url: 'https://open.spotify.com/user/heteromono?si=9e365f8dc95041fb'
+    - name: 'linkedin'
+      url: 'https://www.linkedin.com/in/tiiffanyychen/'
+    - name: 'github'
+      url: 'https://github.com/tiffanyychen'
+taxonomies:
+  tag: 'tags'
